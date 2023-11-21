@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Great+Vibes&family=Merienda:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Iso&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/* //////////////////////////////////////////////// • header • //////////////////////////////////////////////// */
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 115px;
+}
+
+.logo{
+    color: #00ccff;
+    font-weight: 700;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 25px;
+    margin-right: 3px;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+@media (max-width:767px){
+
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:1200px){
+
+}
+
+/* //////////////////////////////////////////////// • main • //////////////////////////////////////////////// */
+.main {
+    background-image: url(../images/background-chrome-web-store.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 115px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.top-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-img a {
+    background-image: url(../images/apps.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.card-adds {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+}
+
+.ddi{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 35px;
+    font-size: 1.4em;
+    color: #3a6cf4;
+    margin-top: 40px;
+}
+
+.ddi .img {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.img1{
+    background-image: url(../images/winrar.png);
+}
+
+.img2 {
+    background-image: url(../images/Google_Chrome.png);
+}
+
+.img3 {
+    background-image: url(../images/firefox.png);
+}
+
+.img4 {
+    background-image: url(../images/telegram.png);
+}
+
+.img5 {
+    background-image: url(../images/vlc.png);
+}
+
+.img6 {
+    background-image: url(../images/idm-integration-module.png);
+}
+
+.img7 {
+    background-image: url(../images/aimp.png);
+}
+
+.img8 {
+    background-image: url(../images/Codec_Pack.png);
+}
+
+.img9 {
+    background-image: url(../images/minitool-partition.png);
+}
+
+.img10 {
+    background-image: url(../images/rufus.png);
+}
+
+.img11 {
+    background-image: url(../images/visual-studio-code.png);
+}
+
+.ddi .h {
+    width: 275px;
+    padding-left: 1em;
+    color: rgba(0, 0, 0, 80%);
+}
+
+.ddi .url{
+    background-color: #3a6cf4;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 0 25px 0 0;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease;
+}
+
+.url:hover {
+    background-color: #0a49f6;
+}
+
+@media (max-width:767px){
+
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:1200px){
+
+}
