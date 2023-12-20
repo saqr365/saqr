@@ -46,22 +46,6 @@ header {
     color: #601cfc;
 }
 
-@media (max-width:767px){
-
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:992px){
-
-}
-
-@media (min-width:1200px){
-
-}
-
 .main {
     background-image: url(../images/background-microsoft-edge-store.png);
     background-size: cover;
