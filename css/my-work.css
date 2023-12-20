@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 
-/* header */
 header{
     background-color: #f0f0f0;
     width: 100%;
@@ -20,7 +19,7 @@ header{
     align-items: center;
     padding: 10px 115px;
 }
-/* header */
+
 .logo{
     color: #00ccff;
     font-weight: 700;
@@ -41,11 +40,10 @@ header{
     font-weight: 500;
     padding-left: 30px;
 }
-/* header */
+
 .navigation a:hover{
     color: #601cfc;
 }
-
 
 div {
     display: flex;

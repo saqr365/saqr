@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 
-/* //////////////////////////////////////////////// • header • //////////////////////////////////////////////// */
 header {
     background-color: #f0f0f0;
     width: 100%;
@@ -63,7 +62,6 @@ header {
 
 }
 
-/* //////////////////////////////////////////////// • main • //////////////////////////////////////////////// */
 .main {
     background-image: url(../images/background-firefox-store.png);
     background-size: cover;
@@ -144,20 +142,4 @@ header {
 .add-a span {
     padding-left: 20px;
     color: rgba(0, 0, 0, 80%);
-}
-
-@media (max-width:767px){
-
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:992px){
-
-}
-
-@media (min-width:1200px){
-
 }

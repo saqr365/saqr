@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 
-/* header */
 header{
     background-color: #f0f0f0;
     width: 100%;
@@ -20,7 +19,7 @@ header{
     align-items: center;
     padding: 10px 115px;
 }
-/* header */
+
 .logo{
     color: #00ccff;
     font-weight: 700;
@@ -34,14 +33,14 @@ header{
     width: 25px;
     margin-right: 3px;
 }
-/* header */
+
 .navigation a{
     color: #3a6cf4;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
 }
-/* header */
+
 .navigation a:hover{
     color: #601cfc;
 }
@@ -121,7 +120,6 @@ section {
     padding-right: 40px;
 }
 
-/* //////////////////////////////////////////////// • Platforms • //////////////////////////////////////////////// */
 .platforms {
     background-color: whitesmoke;
     width: 100%;
@@ -201,7 +199,6 @@ section {
     font-weight: 600;
 }
 
-/* //////////////////////////////////////////////// • Other • //////////////////////////////////////////////// */
 .other {
     display: flex;
     flex-direction: column;
@@ -343,7 +340,6 @@ section {
     right: 0;
 }
 
-/* //////////////////////////////////////////////// • footer • //////////////////////////////////////////////// */
 .footer {
     background-color: #000016;
     color: #fff;
@@ -375,7 +371,6 @@ section {
 .pr-2 {
     padding-right: 30px;
 }
-
 
 .div-none {
     display: none;
