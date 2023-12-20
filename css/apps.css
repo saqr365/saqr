@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 
-/* //////////////////////////////////////////////// • header • //////////////////////////////////////////////// */
 header {
     background-color: #f0f0f0;
     width: 100%;
@@ -47,23 +46,6 @@ header {
     color: #601cfc;
 }
 
-@media (max-width:767px){
-
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:992px){
-
-}
-
-@media (min-width:1200px){
-
-}
-
-/* //////////////////////////////////////////////// • main • //////////////////////////////////////////////// */
 .main {
     background-image: url(../images/background-chrome-web-store.png);
     background-size: cover;
@@ -239,8 +221,6 @@ header {
     background-image: url(../images/brave.png);
 }
 
-
-
 .ddi .h {
     width: 275px;
     padding-left: 1em;
@@ -263,20 +243,4 @@ header {
 
 .url:hover {
     background-color: #0a49f6;
-}
-
-@media (max-width:767px){
-
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:992px){
-
-}
-
-@media (min-width:1200px){
-
 }

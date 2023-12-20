@@ -34,17 +34,6 @@ header{
     margin-right: 3px;
 }
 
-.navigation a{
-    color: #3a6cf4;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding-left: 30px;
-}
-
-.navigation a:hover{
-    color: #601cfc;
-}
-
 div {
     display: flex;
     align-items: center;
