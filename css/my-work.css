@@ -9,19 +9,43 @@
     text-decoration: none;
 }
 
-header{
-    background-color: #f0f0f0;
+.c-navbar {
     width: 100%;
     position: fixed;
     z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 115px;
+    background-color: #292e32;
+}
+
+.navbar-dark .navbar-brand {
+    padding-top: 0.05rem;
+    height: 45px;
+}
+
+.dropdown-menu {
+    border-radius: 0.25rem;
+    background-color: #212529;
+    margin: 0.74rem 0 0;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #353b41;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    color: #00ccff;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #00ccff;
 }
 
 .logo{
-    color: #00ccff;
     font-weight: 700;
     font-size: 1.8em;
     display: flex;
@@ -34,19 +58,87 @@ header{
     margin-right: 3px;
 }
 
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main {
+    background-image: url(../images/aedrian-6q7UNoz9AjM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-    min-height: 100vh;
-    padding-top: 100px;
 }
 
-h2 {
-    background-color: whitesmoke;
-    padding: 100px 200px;
-    border-radius: 25px;
-    color: #75bef1;
-    font-size: 10em;
+.d-main {
+    width: 100%;
+    padding: 100px 115px;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+
+}
+
+.d-i {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.a-i {
+    transition: 0.7s ease;
+}
+
+.a-i:hover {
+    transform: scale(1.02);
+    
+}
+
+.a-i img {
+    width: 600px;
+    border-radius: 10px;
+    border: 5px solid #ff0000;
+    box-shadow: 0 0 10px 2px #ff0000;
+    margin: 25px 20px 0px 20px;
+}
+
+.a-i div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-i span {
+    color: white;
+    background-color: #ff0000;
+    border-radius: 10px 0;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.a-i h2 {
+    color: white;
+    font-weight: 200;
+    margin: -45px 0 0 35px;
+}
+
+.a-i h3 {
+    margin: -35px 20px 0 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px){
+    .c-navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .a-i img {
+        width: 300px;
+    }
+
+    .d-main {
+        padding: 100PX 10PX;
+    }
+
+    .a-i h2 {
+        font-size: 20px;
+        margin: -40px 0 0 35px;
+    }
 }

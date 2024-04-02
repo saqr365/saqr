@@ -9,22 +9,47 @@
     text-decoration: none;
 }
 
-header{
-    background-color: #f0f0f0;
+.c-navbar {
     width: 100%;
     position: fixed;
     z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 115px;
+    background-color: #292e32;
+}
+
+.navbar-dark .navbar-brand {
+    padding-top: 0.05rem;
+    height: 45px;
+}
+
+.dropdown-menu {
+    border-radius: 0.25rem;
+    background-color: #212529;
+    margin: 0.74rem 0 0;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #353b41;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    color: #00ccff;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #00ccff;
 }
 
 .logo{
-    color: #00ccff;
     font-weight: 700;
     font-size: 1.8em;
     display: flex;
+    margin-right: 1rem;
     align-items: center;
     letter-spacing: 1px;
 }
@@ -34,23 +59,12 @@ header{
     margin-right: 3px;
 }
 
-.navigation a{
-    color: #3a6cf4;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding-left: 30px;
-}
-
-.navigation a:hover{
-    color: #601cfc;
-}
-
 section {
     padding: 100px 115px;
 }
 
 .main{
-    background-image: url(../images/MDN-introduces-Web-Development-AI-Help-in-Beta-header-1691063106450.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +84,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #b264ff;
     font-size: 3em;
     font-weight: 600;
 }
@@ -84,9 +98,20 @@ section {
     margin-bottom: 30px;
 }
 
+.main-h4 {
+    margin: 0px 0px -25px 0px;
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 15px 0;
+    background: linear-gradient(270deg, #b20000 -75%, #ff0000 90%);
+}
+
 .min-btn {
     color: #fff;
-    background-color: #3a6cf4;
+    background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
@@ -98,8 +123,9 @@ section {
 }
 
 .min-btn:hover {
-    background-color: #0a49f6;
-    transform: scale(1.1);
+    box-shadow: 2px 2px 10px white;
+    color: #fff;
+    text-decoration: none;
 }
 
 .social-icons {
@@ -109,7 +135,8 @@ section {
 
 .main-d .social-icons {
     display: flex;
-    width: 300px;
+    justify-content: space-around;
+    width: 200px;
 }
 
 .main-d .social-icons a {
@@ -121,7 +148,7 @@ section {
 }
 
 .platforms {
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
     min-height: 100vh;
     display: inline-block;
@@ -129,8 +156,13 @@ section {
 
 .p-h2 {
     font-size: 2.7em;
-    color: #3a6cf4;
+    color: #0a0b0c;
     text-align: center;
+    text-shadow: 2px 2px gold;
+}
+
+.p-h2 span {
+    color: #0a0b0c;
 }
 
 .plat {
@@ -141,26 +173,22 @@ section {
 }
 
 .p-plat {
-    background-color: white;
+    background-color: #f4f6fa;
     width: 20em;
-    border-radius: 20px;
     margin: 4em 4.8em 3em 4.8em;
     padding: 1.7em;
     padding-bottom: 1em;
+    border-radius: 15px 0;
     transition: 0.7s ease;
 }
 
-.p-plat:hover {
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-}
-
 .p-plat .p {
-    background-repeat: no-repeat;
     background-size: cover;
-    margin: -1.7em;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px 0;
     margin-bottom: 1em;
     height: 160px;
-    border-radius: 20px 20px 0px 0px;
 }
 
 .w3schools {
@@ -189,41 +217,45 @@ section {
 
 .p-plat a h3 {
     font-weight: 700;
-    color: #3a6cf4;
-    margin-bottom: 0.17em;
+    font-size: 1.2rem;
+    color: black;
 }
 
-.p-plat p {
-    color: black;
-    font-size: 0.8em;
-    font-weight: 600;
+.p-plat a {
+    text-decoration: none;
 }
 
 .other {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #f4f6fa;
     width: 100%;
-    min-height: 100vh;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2.7em;
+    margin: 2.7em;
+}
+
+.cs-card {
+    height: 200px;
+    margin-bottom: 50px;
 }
 
 .card {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
     box-shadow: 0 5px 25px rgba(1 1 1 / 7%);
-    padding: 50px;
+    padding: 25px 25px 10px 25px;
     margin: 25px;
     width: 21rem;
-    height: 400px;
-    transition: 0.7s ease;
+    border-radius: 0 10px;
+    box-shadow: 5px 5px #0075ff;
+    height: 206px;
+    transition: 0.3s ease;
 }
 
 .card-img {
@@ -240,15 +272,14 @@ section {
     text-align: center;
 }
 
-.card-titel h3 {
-    color: #3a6cf4;
-    font-size: 2rem;
-    padding-top: 50px;
+.card-titel a {
+    text-decoration: none;
 }
 
-.card-titel p {
-    font-weight: 500;
-    padding-top: 0.5em;
+.card-titel h3 {
+    color: black;
+    font-size: 1.3rem;
+    padding-top: 20px;
 }
 
 .dd{
@@ -344,22 +375,17 @@ section {
     background-color: #000016;
     color: #fff;
     padding: 1.3em 2em;
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-title {
     font-size: 1.3em;
     font-weight: 600;
+    margin: 0;
 }
 
 .footer-title span {
     color: #3a6cf4;
-}
-
-.footer-title samp {
-    color: cadetblue;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 
 .footer .social-icons a {
@@ -368,18 +394,18 @@ section {
     align-items: center;
 }
 
-.pr-2 {
-    padding-right: 30px;
-}
-
 .div-none {
     display: none;
 }
 
 @media (max-width:767px){
+    .c-navbar {
+        padding: 0.5rem 1rem;
+    }
+
     header {
         padding: 10px 30px;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .navigation {
@@ -388,11 +414,12 @@ section {
 
 
     section {
-        padding: 10px;
+        padding: 50px 10px 10px;
     }
 
     .main {
         justify-content: center;
+        background-attachment: scroll;
     }
 
     .main-d {
@@ -428,11 +455,11 @@ section {
     }
 
     .footer-title {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
-    .footer-title samp {
-        font-size: .7em;
+    .footer-title span {
+        font-size: 0.95em;
     }
 }
 
@@ -471,11 +498,6 @@ section {
     }
 
     .card:hover {
-        transform: scale(1.1);
-        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    }
-
-    .footer-title samp {
-        padding-left: 10px;
+        margin-top: 30px;
     }
 }
