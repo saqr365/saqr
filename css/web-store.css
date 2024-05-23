@@ -68,7 +68,7 @@
     }
 
     .a-ct:hover {
-        background-image: linear-gradient(135deg, rgb(58, 58, 177) 25%, rgb(241, 124, 7) 125%);
+        background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
     }
 }
 
@@ -89,7 +89,7 @@
 }
 
 .web-store-hov:hover {
-    background-image: linear-gradient(135deg, rgb(58, 58, 177) 25%, rgb(241, 124, 7) 125%);
+    background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
 }
 
 .web-store img {
@@ -104,7 +104,7 @@
 }
 
 .a-ct {
-    background-image: linear-gradient(135deg, rgb(58, 58, 177) 25%, rgb(241, 124, 7) 125%);
+    background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
 }
 
 .a-ct h2 {

@@ -469,7 +469,7 @@ span {
 
 @media (max-width:767px){
     .c-navbar {
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem;   
     }
 
     header {
@@ -478,6 +478,12 @@ span {
 
     .navigation {
         display: none;
+    }
+
+    .navbar-dark .navbar-brand {
+        background-image: linear-gradient(135deg, rgb(58, 58, 177) 25%, rgb(241, 124, 7) 125%);
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
 
@@ -561,6 +567,38 @@ span {
 
     .social-icons a {
         font-size: 2.1em;
+    }
+
+    .ceo {
+        display: inline-block;
+    }
+
+    .ceo-i {
+        width: 100%;
+    }
+
+    .ceo-ii {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .ceo {
+        display: inline-block;
+    }
+
+    .ceo-i {
+        width: 100%;
+    }
+
+    .ceo-ii {
+        width: 100%;
+    }
+
+    .ceo-ii a {
+        padding: 7px 30px;
+        width: 270px;
+        margin: 40px 0 0;
     }
 }
 
