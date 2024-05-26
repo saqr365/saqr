@@ -215,8 +215,15 @@ section {
     margin: 40px 0;
     display: flex;
     align-items: center;
-    border-bottom: 5px solid #ced4da;
     transition: 0.5s ease;
+}
+
+.ceo-ii-1{
+    border-bottom: 5px solid #ced4da;
+}
+
+.ceo-ii-2 {
+    border-bottom: 5px solid #ced4da;
 }
 
 .ceo-ii-1:hover {
@@ -583,6 +590,11 @@ span {
 }
 
 @media (max-width:768px) {
+
+    .sec-ceo {
+        background-attachment: scroll;
+    }
+
     .ceo {
         display: inline-block;
     }
@@ -600,6 +612,28 @@ span {
         width: 270px;
         margin: 40px 0 0;
     }
+
+    .ceo-ii-1 {
+        border-bottom: 5px solid #1389fd;
+    }
+    
+    .ceo-ii-2 {
+        border-bottom: 5px solid #f26207;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    .plat {
+        margin-bottom: 50px;
+    }
+
+    .plat-2 a {
+        margin: 10px 10px 20PX;
+        width: 265px;
+    }
+
 }
 
 @media (min-width:1200px){
